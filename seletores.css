@@ -1,0 +1,35 @@
+Código CSS para mudar as cores dos links:
+
+a {
+    color: red; /* Cor padrão do link */
+}
+
+a:hover {
+    color: lemon; /* Cor do link ao ser sobreposto pelo mouse */
+}
+
+
+Código CSS para customizar parágrafos:
+
+p {
+    font-family: Arial; /* Fonte Arial para parágrafos em geral */
+}
+
+h1 + p {
+    font-weight: bold; /* Parágrafos logo após h1 em negrito */
+}
+
+
+Código CSS para estilizar a classe .destaque:
+
+.destaque {
+    font-family: Arial; /* Fonte Arial por padrão */
+}
+
+p.destaque {
+    font-weight: bold; /* Parágrafos com a classe .destaque em negrito */
+}
+
+strong.destaque {
+    color: red; /* <strong> com a classe .destaque em vermelho */
+}
