@@ -1,0 +1,57 @@
+/* Definição da paleta de cores */
+:root {
+    --background-color: #1c1c1e;
+    --font-color: #ffffff;
+    --highlight-color: #ff4500;
+}
+
+/* Estilo básico */
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: Arial, sans-serif;
+}
+
+/* Destaques */
+h1, h2, h3, h4, h5, h6, a {
+    color: var(--highlight-color);
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--font-color);
+}
+
+/* Estilo para seções específicas */
+header {
+    background-color: var(--background-color);
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: var(--background-color);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
